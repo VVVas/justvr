@@ -50,6 +50,10 @@ a:hover {
 	color: #C33;
 }
 
+img {
+	width: 100%;
+}
+
 time {
 	font-size: 80%;
 }
