@@ -1,0 +1,186 @@
+body {
+	margin: 0 auto;
+	padding: 0 10%;
+	font-family: 'Open Sans', 'Lucida Sans Unicode', sans-serif;
+}
+
+nav {
+	margin-top: 1.5em;
+	font-size: 120%;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	margin-bottom: .5em;
+	padding: .3em .8em;
+	border-left: #9C6 solid 1px;
+	border-bottom: #9C6 solid 1px;
+	border-radius: .2em;
+}
+
+nav ul li.super {
+	background-color: #9C6;
+	border: #9C6 solid 1px;
+	border-radius: .2em;
+}
+
+nav ul li.current {
+	border: #9C6 solid 1px;
+	border-radius: .2em;
+}
+
+h1, h2, h3, h4 {
+	margin-bottom: 0;
+}
+
+h3, h4 {
+	margin-top: 0;
+}
+
+a:link, a:active {
+	color: #36C;
+}
+
+a:visited {
+	color: #609;
+}
+
+a:hover {
+	color: #C33;
+}
+
+time {
+	font-size: 80%;
+}
+
+p {
+	margin-top: 0;
+}
+
+ul {
+	margin-top: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+li {
+	margin-bottom: .3em;
+}
+
+li.year {
+	margin-left: -.8em;
+}
+
+ul.blog li.year {
+	float: left;
+	padding-right: 1.8em;
+	width: 46%;
+}
+
+li.year ul {
+	margin-left: .8em;
+}
+
+ul.blog li.year ul.v09b li {
+	margin-left: 2.5em;
+}
+
+ul.blog li.year ul.v09b li a {
+	margin-left: -2.5em;
+	padding-right: .8em;
+}
+
+div.movie, div.book {
+	float: left;
+	padding-right: 5%;
+	width: 45%;
+}
+
+/*
+div.book {
+	float: left;
+	width: 48%;
+}
+*/
+
+.see {
+	background-color: #CF6;
+}
+
+.one {
+	background-color: #FC6;
+}
+
+.not {
+	background-color: #F99;
+}
+
+.star {
+	display: inline-block;
+	width: 1.4em;
+	margin-left: -1.4em;
+}
+
+iframe.youtube {
+	width: 800px;
+	height: 600px;
+}
+
+article, footer {
+	clear: both;
+}
+
+footer {
+	padding-top: 2em;
+}
+
+footer p.nav strong, footer p.nav a {
+	margin-right: 2em;
+}
+
+/* adaptive for all */
+
+@media all and (max-width: 900px) {
+	div.movie div.movie {
+		float: none;
+		width: auto;
+	}
+
+	iframe.youtube {
+		width: 500px;
+		height: 375px;
+	}
+}
+
+@media all and (max-width: 600px) {
+	div.movie, div.book, ul.blog li.year {
+		float: none;
+		width: auto;
+	}
+	
+	div.card {
+		padding: .5em;
+		height: auto;
+		width: 15em;
+		float: none;
+	}
+
+	div.card h4 {
+		padding-top: 1.5em;
+	}
+
+	div.card p {
+		padding-bottom: 1.5em;
+	}
+
+	iframe.youtube {
+		width: 300px;
+		height: 225px;
+	}
+	
+	footer p.nav strong, footer p.nav a {
+		padding-right: 0;
+		display: block;
+	}
+}

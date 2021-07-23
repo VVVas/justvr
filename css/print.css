@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a[href]:after {
+	content: " (" attr(href) ")";
+}
+
+a[href^="/"]:after {
+	content: " (vvvas.ru" attr(href) ")";
+}
+
+.see:before {
+	content: " + ";
+}
+
+.one:before {
+	content: " ± ";
+}
+
+.not:before {
+	content: " − ";
+}
+
+li.year, .star {
+	margin-left: 0;
+}
+
+.star {
+	width: 1em;
+}
+
+ul.blog li.year {
+	float: none;
+	padding-right: 0;
+	width: 100%;
+}
