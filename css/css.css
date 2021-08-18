@@ -19,6 +19,10 @@ nav ul li {
 	border-radius: .2em;
 }
 
+nav ul li a {
+	text-decoration: none;
+}
+
 nav ul li.super {
 	background-color: #9C6;
 	border: #9C6 solid 1px;
