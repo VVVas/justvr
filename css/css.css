@@ -25,12 +25,14 @@ nav ul li a {
 
 nav ul li.icon {
 	border: none;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 nav ul li.icon a img {
-  width: 1.35em;
-  height: 1.35em;
-  vertical-align: bottom;
+	width: 1.35em;
+	height: 1.35em;
+	vertical-align: bottom;
 }
 
 nav ul li.super {
