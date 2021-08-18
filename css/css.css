@@ -23,9 +23,14 @@ nav ul li a {
 	text-decoration: none;
 }
 
-nav ul li a img.icon {
-  width: 1em;
-  height: 1em;
+nav ul li.icon {
+	border: none;
+}
+
+nav ul li.icon a img {
+  width: 1.35em;
+  height: 1.35em;
+  vertical-align: bottom;
 }
 
 nav ul li.super {
