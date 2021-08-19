@@ -30,9 +30,9 @@ nav ul li.icon {
 }
 
 nav ul li.icon a img {
-	width: 1.35em;
-	height: 1.35em;
-	vertical-align: bottom;
+	width: 2.5em;
+	height: 2.5em;
+	vertical-align: -.8em;
 }
 
 nav ul li.super {
