@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-	/* margin-top: 1.5em; */
+	margin-top: 1.5em;
 	font-size: 120%;
 }
 
@@ -25,6 +25,7 @@ nav ul li a {
 
 nav ul li.icon {
 	border: none;
+	margin-top: -.9em;
 	padding-left: 0;
 	padding-right: 0;
 }
