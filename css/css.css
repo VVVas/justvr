@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-	margin-top: 1.5em;
+	/* margin-top: 1.5em; */
 	font-size: 120%;
 }
 
@@ -30,9 +30,9 @@ nav ul li.icon {
 }
 
 nav ul li.icon a img {
-	width: 2.5em;
-	height: 2.5em;
-	vertical-align: -.8em;
+	width: 2.4em;
+	height: 2.4em;
+	vertical-align: -.4em;
 }
 
 nav ul li.super {
