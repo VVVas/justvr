@@ -12,7 +12,7 @@ a[href]:after {
 }
 
 a[href^="/"]:after {
-	content: " (vvvas.ru" attr(href) ")";
+	content: " (justvr.ru" attr(href) ")";
 }
 
 .see:before {
